@@ -25,3 +25,29 @@ nav ul {
 nav ul li {
     margin-left: 20px;
 }
+
+.overview-hero .container {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;       
+    justify-content: space-between; 
+}
+
+.overview-hero-image {
+    flex: 1;                  
+    margin-right: 20px;        
+}
+
+.overview-hero-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.overview-hero-text {
+    flex: 1;                  
+    text-align: left;
+}
+
