@@ -26,8 +26,11 @@ nav ul li {
     margin-left: 20px;
 }
 
+.overview-hero {
+    padding : 20px 0;
+    background-color: white;
+}
 .overview-hero .container {
-    background-color: #f4f4f4;
     padding: 20px 0;
     display: flex;
     align-items: center;       
@@ -76,4 +79,32 @@ nav ul li {
     display: block;
     border-radius: 8px;
 }
+
+.testing {
+    background-color: #fafbfc;
+    padding: 20px 0;
+}
+.testing .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.testing-desciption{
+    flex: 1;                  
+    margin-right: 20px;        
+}
+.testing .cta {
+    flex: 1;
+    text-align: right;                  
+}
+.testing .cta .btn {
+    align-items: right;
+    margin-left: auto;
+    display : inline-block;
+    padding: 10px 20px;
+    background-color: white;
+}
+
 
