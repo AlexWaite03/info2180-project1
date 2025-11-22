@@ -51,3 +51,29 @@ nav ul li {
     text-align: left;
 }
 
+.learn-about .container{
+    padding: 20px 0;
+    margin: 0 auto;
+
+}
+
+.learn-about .cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.learn-about .card{
+    flex: 1 ; 
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.learn-about .card img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
