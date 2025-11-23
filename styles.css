@@ -130,6 +130,8 @@ nav ul li a:hover {
     display : inline-block;
     padding: 10px 20px;
     background-color: #48BB78;
+    color: white;
+    text-decoration: none;
     border-radius: 5px;
 }
 
@@ -147,7 +149,7 @@ nav ul li a:hover {
     color: #5A67D8;
 }
 
-.stories .href{
+.stories a{
     color : #5A67D8;
     text-decoration: none;
 }
@@ -177,7 +179,8 @@ nav ul li a:hover {
 }
 
 .newsletter {
-    background-color: #f9f9f9;
+    background-color: #48BB78;
+    color: white;
     padding: 20px 0;
     text-align: center;      
     display: flex;            
@@ -204,7 +207,15 @@ form {
 }
 
 form .btn {
+    background-color: #5A67D8;
     margin-left: 20px;
     flex: 0;                
     padding: 10px 20px;
+}
+
+footer{
+    background-color: #4A5568;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 }
