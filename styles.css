@@ -30,10 +30,16 @@ nav ul {
 nav ul li {
     margin-left: 20px;
 }
+nav ul li a {
+    color: #6b7280;
+}
+nav ul li a:hover {
+    color: #5A67D8;
+}
 
 .overview-hero {
     padding : 20px 0;
-    background-color: white;
+    background-color:#E2E8F0;
 }
 .overview-hero .container {
     padding: 20px 0;
@@ -83,6 +89,12 @@ nav ul li {
     height: 300px;
     display: block;
     border-radius: 8px;
+}
+
+.learn-about h2{
+    font-size: 24px;
+    color: #48BB78;
+
 }
 
 .testing {
