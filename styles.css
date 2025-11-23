@@ -79,11 +79,18 @@ nav ul li a:hover {
 
 .learn-about .card{
     flex: 1 ; 
-    background-color: #f9f9f9;
-    border-radius: 8px;
+    border: 1px solid #E2E8F0; 
+    border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: #f9f9f9;
     text-align: center;
 }
+
+.learn-about .card h3{
+    color: #48BB78;
+    font-size: 21px;
+}
+
 .learn-about .card img{
     max-width: 100%;
     height: 300px;
@@ -98,7 +105,8 @@ nav ul li a:hover {
 }
 
 .testing {
-    background-color: #fafbfc;
+    background-color: #4A5568;
+    color: white;
     padding: 20px 0;
 }
 .testing .container{
@@ -121,7 +129,8 @@ nav ul li a:hover {
     margin-left: auto;
     display : inline-block;
     padding: 10px 20px;
-    background-color: white;
+    background-color: #48BB78;
+    border-radius: 5px;
 }
 
 .stories {
@@ -133,6 +142,18 @@ nav ul li a:hover {
     align-items: center;
     padding: 20px 0;
 
+}
+.stories h2{
+    color: #5A67D8;
+}
+
+.stories .href{
+    color : #5A67D8;
+    text-decoration: none;
+}
+
+.stories h3{
+    font-size: 18px;
 }
 
 .stories article {
